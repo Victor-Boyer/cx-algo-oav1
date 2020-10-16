@@ -7,13 +7,11 @@ function isAPangrams(str) {
         //In String.fromCharCode, the alphabet start at the 65th iteration
         let alphabet = String.fromCharCode(i);
         
-        if (arrayString.includes(alphabet)) {
-            return true;
-        }
-        else {
+        if (!arrayString.includes(alphabet)) {
             return false;
         }
     }
+    return true
 }
 
 console.log(isAPangrams("The quick brown fox jumps over the lazy dog"));

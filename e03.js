@@ -10,5 +10,3 @@ function marsos(str) {
 
     return alteredLetter
 }
-
-console.log(marsos("SOFSOSSISSOW"));
